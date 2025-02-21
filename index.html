@@ -1,0 +1,734 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Fri Feb 21 2025 06:04:51 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="67b32e22097b74fb46b6cfd5" data-wf-site="67b32e22097b74fb46b6cfc8">
+<head>
+  <meta charset="utf-8">
+  <title>BGHRS</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/bghrs.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic:cyrillic,latin","Noto Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.webp" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.webp" rel="apple-touch-icon">
+</head>
+<body>
+  <div data-w-id="81ea3583-31fc-74ae-473b-bbc0197ee79d" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav w-nav">
+    <div class="navigation-container">
+      <div class="navigation-left-wrapper">
+        <a href="index.html" aria-current="page" class="navigation-logo-link w-inline-block w--current"><img width="124" loading="lazy" alt="" src="images/Frame-876.webp" class="navigation-logo"></a>
+      </div>
+      <nav role="navigation" class="navigation-menu w-nav-menu">
+        <div class="nav-link-wrp">
+          <a href="index.html" aria-current="page" class="navigation-link w-nav-link w--current">Home</a>
+        </div>
+        <div class="nav-link-wrp">
+          <a href="#" class="navigation-link w-nav-link">Products</a>
+        </div>
+        <div class="nav-link-wrp">
+          <a href="#" class="navigation-link w-nav-link">About Us</a>
+        </div>
+        <div class="nav-link-wrp">
+          <a href="#" class="navigation-link w-nav-link">Contact Us</a>
+        </div>
+      </nav>
+      <a href="#" class="hero-button cc-nav w-inline-block"><img loading="lazy" src="images/Vector-42.webp" alt="" class="whatsapp-img">
+        <div class="btn-text-2">WhatsApp</div>
+      </a>
+      <div class="navigation-right-wrapper">
+        <div style="width:0px" class="navigation-search-form-block w-form">
+          <form id="wf-form-Primary-Filters" name="wf-form-Primary-Filters" data-name="Primary Filters" method="get" class="navigation-search-form" data-wf-page-id="67b32e22097b74fb46b6cfd5" data-wf-element-id="6e3c9458-6ef1-c483-10cc-45b694446fee"><input class="navigation-search-input w-input" maxlength="256" name="Search-2" data-name="Search 2" placeholder="Type any product..." type="text" id="Search-2"></form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+        </div>
+        <a href="#" class="hero-button cc-nav-show w-inline-block"><img loading="lazy" src="images/Vector-42.webp" alt="">
+          <div class="btn-text-2">WhatsApp</div>
+        </a>
+        <div class="navigation-button-wrapper">
+          <a data-w-id="6e3c9458-6ef1-c483-10cc-45b694446ff7" href="#" class="navigation-search-button w-inline-block">
+            <div class="navigation-close-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none">
+                <path d="M18.3 5.70997C17.91 5.31997 17.28 5.31997 16.89 5.70997L12 10.59L7.10997 5.69997C6.71997 5.30997 6.08997 5.30997 5.69997 5.69997C5.30997 6.08997 5.30997 6.71997 5.69997 7.10997L10.59 12L5.69997 16.89C5.30997 17.28 5.30997 17.91 5.69997 18.3C6.08997 18.69 6.71997 18.69 7.10997 18.3L12 13.41L16.89 18.3C17.28 18.69 17.91 18.69 18.3 18.3C18.69 17.91 18.69 17.28 18.3 16.89L13.41 12L18.3 7.10997C18.68 6.72997 18.68 6.08997 18.3 5.70997Z" fill="currentColor"></path>
+              </svg></div>
+            <div class="navigation-search-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none">
+                <path d="M15.9765 14.4716H15.1865L14.9065 14.2016C16.1065 12.8016 16.7265 10.8916 16.3865 8.86157C15.9165 6.08157 13.5965 3.86157 10.7965 3.52157C6.56646 3.00157 3.00646 6.56157 3.52646 10.7916C3.86646 13.5916 6.08646 15.9116 8.86646 16.3816C10.8965 16.7216 12.8065 16.1016 14.2065 14.9016L14.4765 15.1816V15.9716L18.7265 20.2216C19.1365 20.6316 19.8065 20.6316 20.2165 20.2216C20.6265 19.8116 20.6265 19.1416 20.2165 18.7316L15.9765 14.4716ZM9.97646 14.4716C7.48646 14.4716 5.47646 12.4616 5.47646 9.97157C5.47646 7.48157 7.48646 5.47157 9.97646 5.47157C12.4665 5.47157 14.4765 7.48157 14.4765 9.97157C14.4765 12.4616 12.4665 14.4716 9.97646 14.4716Z" fill="currentColor"></path>
+              </svg></div>
+          </a>
+          <div class="navigation-divider"></div>
+        </div>
+        <div class="navigation-menu-button w-nav-button">
+          <div class="icon-2 w-icon-nav-menu"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="section-hero">
+    <div class="hero-title-wrap">
+      <div class="hero-top-wrap">
+        <div data-w-id="85fbd41f-7579-7a62-87fd-01cbabd64f06" style="opacity:0" class="title-wrapper">
+          <h1 class="hero-title">Transform the Way You Manage HR with <span class="text-color">BGHRS</span></h1><img src="images/Vector-43.webp" loading="lazy" alt="" class="heading-under-line">
+        </div>
+        <p data-w-id="245e5b34-8d92-ba17-4459-59bfe20eaf24" style="opacity:0" class="hero-para">From recruitment to payroll, manage all your HR needs in one smart platform. Let BGHRS handle the details, so you can focus on growth.</p>
+        <div data-w-id="4eada7eb-6027-eb35-e9f6-16efff10e398" style="opacity:0" class="hero-btn-wrapper">
+          <a href="#" class="hero-button w-inline-block">
+            <div class="btn-text-2">Looking for Job</div><img loading="lazy" src="images/Vector-44.webp" alt="" class="btn-img">
+          </a>
+          <a href="#" class="hero-button cc-bg-color w-inline-block">
+            <div class="btn-text-2">Looking for People</div><img loading="lazy" src="images/Vector-44.webp" alt="" class="btn-img">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="w-layout-grid f-grid-two-column">
+      <div id="w-node-ef128ff0-c0cc-5745-c63a-bac0e3a74896-46b6cfd5" class="f-feature-title-wrap">
+        <div class="f-margin-bottom-08">
+          <div data-w-id="ef128ff0-c0cc-5745-c63a-bac0e3a74898" style="opacity:0" class="f-heading-detail-small">About Us</div>
+        </div>
+        <div class="f-margin-bottom-16">
+          <h2 data-w-id="ef128ff0-c0cc-5745-c63a-bac0e3a7489b" style="opacity:0" class="f-h3-heading">Revolutionizing HR for a Smarter Workforce</h2>
+        </div>
+      </div>
+      <p data-w-id="ef128ff0-c0cc-5745-c63a-bac0e3a7489d" style="opacity:0" class="f-paragraph-large">At BGHRS, we empower businesses with seamless HR solutions that simplify recruitment, payroll, compliance, and employee management. Our technology-driven platform ensures efficiency, accuracy, and scalability, so you can focus on what truly matters—growing your business and supporting your employees.</p>
+    </div>
+  </section>
+  <section class="section--grow background-secondary">
+    <div class="container-large">
+      <div class="w-layout-grid grid-two-column">
+        <div data-w-id="9ab0a01c-1821-8c70-75b0-05d6681f40a8" style="opacity:0" class="content-image"><img sizes="(max-width: 479px) 100vw, (max-width: 991px) 95vw, 486px" srcset="images/c8423718d82a0021ea825003b2b7928a_1_optimized_4001c8423718d82a0021ea825003b2b7928a_1_optimized_4000.webp 500w, images/c8423718d82a0021ea825003b2b7928a_1_optimized_4001c8423718d82a0021ea825003b2b7928a_1_optimized_4000.webp 800w, images/c8423718d82a0021ea825003b2b7928a_1_optimized_4001c8423718d82a0021ea825003b2b7928a_1_optimized_4000.webp 1080w, images/c8423718d82a0021ea825003b2b7928a_1_optimized_4001c8423718d82a0021ea825003b2b7928a_1_optimized_4000.webp 1600w, images/c8423718d82a0021ea825003b2b7928a_1_optimized_4001c8423718d82a0021ea825003b2b7928a_1_optimized_4000.webp 2000w, images/c8423718d82a0021ea825003b2b7928a_1_optimized_4001.webp 3071w" alt="" src="images/c8423718d82a0021ea825003b2b7928a_1_optimized_4001.webp" loading="lazy" class="image-cover"><img src="images/Blend-Group-1.webp" loading="lazy" alt="" class="card-img">
+          <div class="upper-details">
+            <div class="text-block">Contract</div><img src="images/121212.webp" loading="lazy" alt=""><img src="images/Vector1.webp" loading="lazy" alt="">
+            <p class="paragraph-4">Roger, Head of Markrting</p>
+          </div>
+          <div class="lower--details">
+            <div class="detials-list"><img src="images/xdfdg.webp" loading="lazy" alt="" class="list-img">
+              <div class="detials-text">Health Insurance</div>
+            </div>
+            <div class="detials-list"><img src="images/sds.webp" loading="lazy" alt="" class="list-img">
+              <div class="detials-text">Outpatient Cover</div>
+            </div>
+            <div class="detials-list"><img src="images/Frame-43071.webp" loading="lazy" alt="" class="list-img">
+              <div class="detials-text">Employees Insurance</div>
+            </div>
+          </div>
+        </div>
+        <div id="w-node-_9ab0a01c-1821-8c70-75b0-05d6681f40aa-46b6cfd5" data-w-id="9ab0a01c-1821-8c70-75b0-05d6681f40aa" style="opacity:0" class="column-2x-large">
+          <div class="column-small">
+            <div class="grow-title-wrap">
+              <h2 class="section-title">Grow Your Workforce with <span class="text-color">BGHRS</span></h2><img src="images/Vector-43.webp" loading="lazy" alt="" class="heading-under-line--grow cc-1">
+            </div>
+          </div>
+          <p class="paragraph-2x-large">Comprehensive HR Solutions Made Simple</p>
+          <div class="column-regular">
+            <div class="subheading-regular">Hire Anyone, Anywhere</div>
+            <div class="list-wrapper">
+              <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+                <p class="list-text"><span class="title">Effortless Hiring</span> – Simplify recruitment with ease.</p>
+              </div>
+              <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+                <p class="list-text"><span class="title">Quick Onboarding</span> – No legal entity required.</p>
+              </div>
+              <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+                <p class="list-text"><span class="title">Global Payroll</span> – Pay on time, in any currency.</p>
+              </div>
+              <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+                <p class="list-text"><span class="title">Top Benefits </span>– Health, wellness, and more.</p>
+              </div>
+              <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+                <p class="list-text"><span class="title">Legal Compliance</span> – Stay risk-free worldwide.<br></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section--grow background">
+    <div class="container-large">
+      <div class="w-layout-grid one-pluse-wrap">
+        <div id="w-node-_17443c23-fd3a-af2b-b6e3-a1fc0dd9c099-46b6cfd5" data-w-id="17443c23-fd3a-af2b-b6e3-a1fc0dd9c099" style="opacity:0" class="column-2x-large">
+          <div class="column-small">
+            <div class="grow-title-wrap">
+              <h2 class="section-title-automate">Automate Your HR Operations in <span class="text-color">One Place</span></h2><img src="images/Vector-43.webp" loading="lazy" alt="" class="heading-under-line--grow cc-2-copy">
+            </div>
+          </div>
+          <p class="paragraph-2x-large">Comprehensive HR Solutions Made Simple</p>
+          <div class="column-regular">
+            <div class="subheading-regular">Hire Anyone, Anywhere</div>
+            <div class="list-wrapper">
+              <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+                <p class="list-text"><span class="title">Effortless Hiring</span> – Simplify recruitment with ease.</p>
+              </div>
+              <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+                <p class="list-text"><span class="title">Quick Onboarding</span> – No legal entity required.</p>
+              </div>
+              <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+                <p class="list-text"><span class="title">Global Payroll</span> – Pay on time, in any currency.</p>
+              </div>
+              <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+                <p class="list-text"><span class="title">Top Benefits </span>– Health, wellness, and more.</p>
+              </div>
+              <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+                <p class="list-text"><span class="title">Legal Compliance</span> – Stay risk-free worldwide.<br></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="w-node-_17443c23-fd3a-af2b-b6e3-a1fc0dd9c094-46b6cfd5" data-w-id="17443c23-fd3a-af2b-b6e3-a1fc0dd9c094" style="opacity:0" class="content-image-copy"><img sizes="(max-width: 479px) 100vw, (max-width: 991px) 95vw, 486px" srcset="images/7cc1e5c651af2b46dc488e5d0fb1c313_1_optimized_40017cc1e5c651af2b46dc488e5d0fb1c313_1_optimized_4000.webp 500w, images/7cc1e5c651af2b46dc488e5d0fb1c313_1_optimized_40017cc1e5c651af2b46dc488e5d0fb1c313_1_optimized_4000.webp 800w, images/7cc1e5c651af2b46dc488e5d0fb1c313_1_optimized_40017cc1e5c651af2b46dc488e5d0fb1c313_1_optimized_4000.webp 1080w, images/7cc1e5c651af2b46dc488e5d0fb1c313_1_optimized_40017cc1e5c651af2b46dc488e5d0fb1c313_1_optimized_4000.webp 1600w, images/7cc1e5c651af2b46dc488e5d0fb1c313_1_optimized_40017cc1e5c651af2b46dc488e5d0fb1c313_1_optimized_4000.webp 2000w, images/7cc1e5c651af2b46dc488e5d0fb1c313_1_optimized_40017cc1e5c651af2b46dc488e5d0fb1c313_1_optimized_4000.webp 2600w, images/7cc1e5c651af2b46dc488e5d0fb1c313_1_optimized_40017cc1e5c651af2b46dc488e5d0fb1c313_1_optimized_4000.webp 3200w, images/7cc1e5c651af2b46dc488e5d0fb1c313_1_optimized_4001.webp 4345w" alt="" src="images/7cc1e5c651af2b46dc488e5d0fb1c313_1_optimized_4001.webp" loading="lazy" class="image-cover"><img src="images/Blend-Group-1.webp" loading="lazy" alt="" class="card-img"><img src="images/Group-43053.webp" loading="lazy" alt="" class="upper-card cc"><img src="images/Group-43053.webp" loading="lazy" alt="" class="lower-card cc"></div>
+      </div>
+    </div>
+  </section>
+  <section class="section--hr-sevice">
+    <div class="container-large">
+      <div class="heading-grid">
+        <div class="column-regular">
+          <div class="column-small cchr">
+            <div data-w-id="2926db20-c808-1fa7-ecee-701d1df57afc" style="opacity:0" class="overline-regular">Our HR Services</div>
+            <h2 data-w-id="2926db20-c808-1fa7-ecee-701d1df57afe" style="opacity:0" class="section-title cc-hr-secvice">Tailored Solutions to Streamline Your <span class="text-color">HR Need</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="w-layout-grid feature-grid">
+        <div data-w-id="2926db20-c808-1fa7-ecee-701d1df57b11" style="opacity:0" class="feature-row">
+          <div class="feature-icon-small"><img src="images/Vector-45.webp" loading="lazy" alt="" class="icon-img"></div>
+          <div class="column-x-small">
+            <div class="subheading-x-large">Recruitment &amp; Onboarding</div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Simplify Hiring</span> – Post jobs, screen candidates, and onboard seamlessly.</p>
+            </div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Automated Onboarding</span> – Get new employees set up quickly with no hassle.</p>
+            </div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Quick Contract Generation</span> – Create and send contracts instantly.</p>
+            </div>
+          </div>
+        </div>
+        <div data-w-id="2926db20-c808-1fa7-ecee-701d1df57b1b" style="opacity:0" class="feature-row">
+          <div class="feature-icon-small"><img src="images/Frame-5.webp" loading="lazy" alt="" class="icon-img"></div>
+          <div class="column-x-small">
+            <div class="subheading-x-large">Payroll Management</div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Global Payroll Solutions </span>– Pay your teams on time, in any currency.</p>
+            </div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Tax Compliance</span> – Ensure compliance with local tax laws effortlessly.</p>
+            </div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Automated Payslips </span>– Deliver accurate payslips with minimal effort.</p>
+            </div>
+          </div>
+        </div>
+        <div data-w-id="2926db20-c808-1fa7-ecee-701d1df57b25" style="opacity:0" class="feature-row">
+          <div class="feature-icon-small"><img src="images/Frame-4.webp" loading="lazy" alt="" class="icon-img"></div>
+          <div class="column-x-small">
+            <div class="subheading-x-large">Employee Benefits &amp; Wellness</div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Comprehensive Benefits Packages</span> – Offer global health, wellness, and retirement plans.</p>
+            </div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Customizable Perks</span> – Tailor benefits to meet the needs of your employees.</p>
+            </div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Global Coverage </span>– Benefits are fully compliant with local regulations.</p>
+            </div>
+          </div>
+        </div>
+        <div data-w-id="2926db20-c808-1fa7-ecee-701d1df57b2f" style="opacity:0" class="feature-row">
+          <div class="feature-icon-small"><img src="images/Vector-47.webp" loading="lazy" alt="" class="icon-img"></div>
+          <div class="column-x-small">
+            <div class="subheading-x-large">Compliance &amp; Risk Management</div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Stay Compliant Globally</span> – Ensure adherence to local labor laws.</p>
+            </div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Risk Mitigation</span> – Avoid legal pitfalls and ensure business continuity.</p>
+            </div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Regular Updates </span>– Stay up-to-date with changing regulations worldwide.</p>
+            </div>
+          </div>
+        </div>
+        <div data-w-id="2926db20-c808-1fa7-ecee-701d1df57b39" style="opacity:0" class="feature-row">
+          <div class="feature-icon-small"><img src="images/Vector-46.webp" loading="lazy" alt="" class="icon-img"></div>
+          <div class="column-x-small">
+            <div class="subheading-x-large">Performance &amp; Talent Management</div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Regular Updates</span> – Stay up-to-date with changing regulations worldwide.</p>
+            </div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Employee Engagement</span> – Keep employees motivated with feedback and development plans.</p>
+            </div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Retention Strategies</span> – Focus on retaining top talent with tailored programs.</p>
+            </div>
+          </div>
+        </div>
+        <div data-w-id="2926db20-c808-1fa7-ecee-701d1df57b43" style="opacity:0" class="feature-row">
+          <div class="feature-icon-small"><img src="images/Frame-6.png" loading="lazy" alt="" class="icon-img"></div>
+          <div class="column-x-small">
+            <div class="subheading-x-large">Employee Self-Service Portal</div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Empower Employees </span>– Let them manage personal information, benefits, and requests.</p>
+            </div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Easy Leave Requests</span> – Employees can quickly request and track their time off.</p>
+            </div>
+            <div class="list-line"><img src="images/Star-1.webp" loading="lazy" alt="" class="star">
+              <p class="list-para1"><span class="bold-font">Access Pay Information</span> – Employees can view their payslips and payment history.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section--compneys">
+    <div class="w-layout-blockcontainer container-large w-container">
+      <div class="code-embed w-embed w-script"><!--  Flowbase Booster [Carousel Ticker]  -->
+        <!--  Please move this script to Custom Code settings when ready for production.  -->
+        <script src="https://cdn.jsdelivr.net/npm/@flowbase-co/boosters-carousel-ticker@1/dist/carousel-ticker.min.js" type="text/javascript"></script>
+      </div>
+      <div class="integration-block">
+        <div class="integration-accent-group"></div>
+        <div data-w-id="f59b0787-a8fc-0207-76cb-5af188d2cb95" style="opacity:0" class="title-column-small">
+          <h2 data-w-id="f59b0787-a8fc-0207-76cb-5af188d2cb98" style="opacity:0" class="section-title cc-compny">Trusted by 100+ Companies <span class="text-color">Worldwide</span></h2><img src="images/Vector-43.webp" loading="lazy" alt="" class="heading-under-line--grow cc">
+        </div>
+        <div class="integration-carousel-column">
+          <div class="gradient-left"></div>
+          <div fb-carousel-overflow-size="0" fb-carousel="true" fb-carousel-direction="left" fb-carousel-speed="24000" fb-carousel-delay="200" fb-carousel-pauseable="false" fb-carousel-overflow="false" class="integration-carousel">
+            <div fb-carousel-content="true" class="integration-carousel-content">
+              <div class="integration-carousel-card"><img src="images/medium-1.webp" loading="lazy" alt="" class="app-img cc-1">
+                <div class="company--title">Apache</div>
+              </div>
+              <div class="integration-carousel-card"><img src="images/apache.webp" loading="lazy" alt="" class="app-img cc-1">
+                <h5 class="company--title">Apache</h5>
+              </div>
+              <div class="integration-carousel-card"><img src="images/8bc02bb2504dcca618c3b0bec6215cdd.webp" loading="lazy" alt="" class="app-img cc-1">
+                <h5 class="company--title">Apache</h5>
+              </div>
+              <div class="integration-carousel-card"><img src="images/fd11cb2d7cb0d58ba75538251428af84_1.webp" loading="lazy" sizes="100vw" srcset="images/fd11cb2d7cb0d58ba75538251428af84_1fd11cb2d7cb0d58ba75538251428af84.webp 500w, images/fd11cb2d7cb0d58ba75538251428af84_1fd11cb2d7cb0d58ba75538251428af84.webp 800w, images/fd11cb2d7cb0d58ba75538251428af84_1fd11cb2d7cb0d58ba75538251428af84.webp 1080w, images/fd11cb2d7cb0d58ba75538251428af84_1.webp 1600w" alt="" class="app-img">
+                <h5 class="company--title">Apache</h5>
+              </div>
+              <div class="integration-carousel-card"><img src="images/fd1d05e7710c8c8d2be37a04e35fb4ad_1.webp" loading="lazy" sizes="100vw" srcset="images/fd1d05e7710c8c8d2be37a04e35fb4ad_1fd1d05e7710c8c8d2be37a04e35fb4ad.webp 500w, images/fd1d05e7710c8c8d2be37a04e35fb4ad_1.webp 750w" alt="" class="app-img">
+                <h5 class="company--title">Apache</h5>
+              </div>
+              <div class="integration-carousel-card"><img src="images/3186f7da065a1fe1c056d6f9a0bca27e_1.webp" loading="lazy" sizes="100vw" srcset="images/3186f7da065a1fe1c056d6f9a0bca27e_13186f7da065a1fe1c056d6f9a0bca27e.webp 500w, images/3186f7da065a1fe1c056d6f9a0bca27e_13186f7da065a1fe1c056d6f9a0bca27e.webp 800w, images/3186f7da065a1fe1c056d6f9a0bca27e_13186f7da065a1fe1c056d6f9a0bca27e.webp 1080w, images/3186f7da065a1fe1c056d6f9a0bca27e_1.webp 1168w" alt="" class="app-img">
+                <h5 class="company--title">Apache</h5>
+              </div>
+              <div class="integration-carousel-card"><img src="images/73695d56b166838e5730ed174de2b53d_1.webp" loading="lazy" sizes="100vw" srcset="images/73695d56b166838e5730ed174de2b53d_173695d56b166838e5730ed174de2b53d.webp 500w, images/73695d56b166838e5730ed174de2b53d_1.webp 600w" alt="" class="app-img">
+                <h5 class="company--title">Apache</h5>
+              </div>
+            </div>
+          </div>
+          <div fb-carousel-overflow-size="0" fb-carousel="true" fb-carousel-direction="right" fb-carousel-speed="24000" fb-carousel-delay="200" fb-carousel-pauseable="false" fb-carousel-overflow="false" class="integration-carousel">
+            <div fb-carousel-content="true" class="integration-carousel-content cc">
+              <div class="integration-carousel-card"><img src="images/21749c2a23bc5909dc131cd45fbbd05d_1.webp" loading="lazy" sizes="100vw" srcset="images/21749c2a23bc5909dc131cd45fbbd05d_121749c2a23bc5909dc131cd45fbbd05d.webp 500w, images/21749c2a23bc5909dc131cd45fbbd05d_1.webp 612w" alt="" class="app-img">
+                <h5 class="company--title">Apache</h5>
+              </div>
+              <div class="integration-carousel-card"><img src="images/2a0b3779e77e737a24fd1b83d99824a6_1.webp" loading="lazy" sizes="100vw" srcset="images/2a0b3779e77e737a24fd1b83d99824a6_12a0b3779e77e737a24fd1b83d99824a6.webp 500w, images/2a0b3779e77e737a24fd1b83d99824a6_1.webp 690w" alt="" class="app-img">
+                <h5 class="company--title">Apache</h5>
+              </div>
+              <div class="integration-carousel-card"><img src="images/8bc02bb2504dcca618c3b0bec6215cdd.webp" loading="lazy" alt="" class="app-img cc-1">
+                <h5 class="company--title">Apache</h5>
+              </div>
+              <div class="integration-carousel-card"><img src="images/medium-2.webp" loading="lazy" alt="" class="app-img cc-1">
+                <h5 class="company--title">Apache</h5>
+              </div>
+              <div class="integration-carousel-card"><img src="images/apache.webp" loading="lazy" alt="" class="app-img cc-1">
+                <h5 class="company--title">Apache</h5>
+              </div>
+              <div class="integration-carousel-card"><img src="images/fd11cb2d7cb0d58ba75538251428af84_1.webp" loading="lazy" sizes="100vw" srcset="images/fd11cb2d7cb0d58ba75538251428af84_1fd11cb2d7cb0d58ba75538251428af84.webp 500w, images/fd11cb2d7cb0d58ba75538251428af84_1fd11cb2d7cb0d58ba75538251428af84.webp 800w, images/fd11cb2d7cb0d58ba75538251428af84_1fd11cb2d7cb0d58ba75538251428af84.webp 1080w, images/fd11cb2d7cb0d58ba75538251428af84_1.webp 1600w" alt="" class="app-img">
+                <h5 class="company--title">Apache</h5>
+              </div>
+            </div>
+          </div>
+          <div class="gradient-right"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-review">
+    <div class="code-embed w-embed w-script">
+      <script src="
+https://cdn.jsdelivr.net/npm/@flowbase-co/boosters-slider-arrows-webflow@1/dist/slider-arrows.min.js
+"></script>
+    </div>
+    <div class="container-large">
+      <div fb-slider="true" class="testimonial-row">
+        <div id="w-node-a3dce3cc-8cd7-2c07-dc18-d7848f8ffd5b-46b6cfd5" class="testimonial-header-column">
+          <div class="column-large">
+            <div class="column-x-small-2">
+              <h2 data-w-id="a3dce3cc-8cd7-2c07-dc18-d7848f8ffd62" style="opacity:0" class="h3-heading">What Our Clients Say</h2>
+            </div>
+            <p data-w-id="a3dce3cc-8cd7-2c07-dc18-d7848f8ffd64" style="opacity:0" class="paragraph-small-2">Trusted by 100+ companies for seamless HR solutions.</p>
+          </div>
+          <div data-w-id="a3dce3cc-8cd7-2c07-dc18-d7848f8ffd66" style="opacity:0" class="row-small">
+            <a fb-slider-arrow="left" href="#" class="testimonial-slider-button w-inline-block">
+              <div class="icon-x-small w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16" fill="none">
+                  <path d="M12.5273 7.33665H5.08066L8.334 4.08332C8.594 3.82332 8.594 3.39665 8.334 3.13665C8.074 2.87665 7.654 2.87665 7.394 3.13665L3.00066 7.52998C2.74066 7.78998 2.74066 8.20998 3.00066 8.46998L7.394 12.8633C7.654 13.1233 8.074 13.1233 8.334 12.8633C8.594 12.6033 8.594 12.1833 8.334 11.9233L5.08066 8.66998H12.5273C12.894 8.66998 13.194 8.36998 13.194 8.00332C13.194 7.63665 12.894 7.33665 12.5273 7.33665Z" fill="currentColor"></path>
+                </svg></div>
+            </a>
+            <a fb-slider-arrow="right" href="#" class="testimonial-slider-button w-inline-block">
+              <div class="icon-x-small w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16" fill="none">
+                  <path d="M3.47233 8.66657H10.919L7.66566 11.9199C7.40566 12.1799 7.40566 12.6066 7.66566 12.8666C7.92566 13.1266 8.34566 13.1266 8.60566 12.8666L12.999 8.47323C13.259 8.21323 13.259 7.79323 12.999 7.53323L8.61233 3.13323C8.35233 2.87323 7.93233 2.87323 7.67233 3.13323C7.41233 3.39323 7.41233 3.81323 7.67233 4.07323L10.919 7.33323H3.47233C3.10566 7.33323 2.80566 7.63323 2.80566 7.9999C2.80566 8.36657 3.10566 8.66657 3.47233 8.66657Z" fill="currentColor"></path>
+                </svg></div>
+            </a>
+          </div>
+        </div>
+        <div data-delay="4000" data-animation="slide" class="testimonial-slider-clipped w-slider" data-autoplay="false" data-easing="ease" style="opacity:0" data-hide-arrows="false" data-disable-swipe="false" data-w-id="a3dce3cc-8cd7-2c07-dc18-d7848f8ffd6b" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+          <div class="testimonial-mask-small w-slider-mask">
+            <div class="testimonal-slide w-slide">
+              <div testimonal="1" class="testimonial-card">
+                <div class="column-large">
+                  <div class="testimonial-icon-wrapper"><img src="images/8bc02bb2504dcca618c3b0bec6215cdd.webp" loading="lazy" alt=""></div>
+                  <p class="paragraph-regular-2">“BGHRS transformed our hiring process! Onboarding international employees has never been easier. Their team is always available to support us at every step.&quot;</p>
+                </div>
+                <div class="column-regular-2">
+                  <div class="row-regular row-center">
+                    <div class="testimonial-avatar"><img loading="lazy" src="images/70e9b56d751d07f53392d7a84aa55817.webp" alt=""></div>
+                    <div>
+                      <div class="paragraph-small-2 text-weight-semibold">Ruben Rhiel Madsen</div>
+                      <div class="paragraph-x-small">HR Director, TechCorp<br></div>
+                    </div>
+                  </div>
+                  <div class="testimonial-link-wrapper">
+                    <div class="testimonal-rating-wrapper">
+                      <div class="testimonial-star">
+                        <div class="icon-regular w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.4297 9.61155L12.9597 4.77155C12.6697 3.82155 11.3297 3.82155 11.0497 4.77155L9.56971 9.61155H5.11971C4.14971 9.61155 3.74971 10.8616 4.53971 11.4216L8.17972 14.0216L6.74971 18.6316C6.45971 19.5616 7.53972 20.3116 8.30972 19.7216L11.9997 16.9216L15.6897 19.7316C16.4597 20.3216 17.5397 19.5716 17.2497 18.6416L15.8197 14.0316L19.4597 11.4316C20.2497 10.8616 19.8497 9.62155 18.8797 9.62155H14.4297V9.61155Z" fill="currentColor"></path>
+                          </svg></div>
+                      </div>
+                      <div class="testimonial-star">
+                        <div class="icon-regular w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.4297 9.61155L12.9597 4.77155C12.6697 3.82155 11.3297 3.82155 11.0497 4.77155L9.56971 9.61155H5.11971C4.14971 9.61155 3.74971 10.8616 4.53971 11.4216L8.17972 14.0216L6.74971 18.6316C6.45971 19.5616 7.53972 20.3116 8.30972 19.7216L11.9997 16.9216L15.6897 19.7316C16.4597 20.3216 17.5397 19.5716 17.2497 18.6416L15.8197 14.0316L19.4597 11.4316C20.2497 10.8616 19.8497 9.62155 18.8797 9.62155H14.4297V9.61155Z" fill="currentColor"></path>
+                          </svg></div>
+                      </div>
+                      <div class="testimonial-star">
+                        <div class="icon-regular w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.4297 9.61155L12.9597 4.77155C12.6697 3.82155 11.3297 3.82155 11.0497 4.77155L9.56971 9.61155H5.11971C4.14971 9.61155 3.74971 10.8616 4.53971 11.4216L8.17972 14.0216L6.74971 18.6316C6.45971 19.5616 7.53972 20.3116 8.30972 19.7216L11.9997 16.9216L15.6897 19.7316C16.4597 20.3216 17.5397 19.5716 17.2497 18.6416L15.8197 14.0316L19.4597 11.4316C20.2497 10.8616 19.8497 9.62155 18.8797 9.62155H14.4297V9.61155Z" fill="currentColor"></path>
+                          </svg></div>
+                      </div>
+                      <div class="testimonial-star">
+                        <div class="icon-regular w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.4297 9.61155L12.9597 4.77155C12.6697 3.82155 11.3297 3.82155 11.0497 4.77155L9.56971 9.61155H5.11971C4.14971 9.61155 3.74971 10.8616 4.53971 11.4216L8.17972 14.0216L6.74971 18.6316C6.45971 19.5616 7.53972 20.3116 8.30972 19.7216L11.9997 16.9216L15.6897 19.7316C16.4597 20.3216 17.5397 19.5716 17.2497 18.6416L15.8197 14.0316L19.4597 11.4316C20.2497 10.8616 19.8497 9.62155 18.8797 9.62155H14.4297V9.61155Z" fill="currentColor"></path>
+                          </svg></div>
+                      </div>
+                      <div class="testimonial-star">
+                        <div class="icon-regular w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.4297 9.61155L12.9597 4.77155C12.6697 3.82155 11.3297 3.82155 11.0497 4.77155L9.56971 9.61155H5.11971C4.14971 9.61155 3.74971 10.8616 4.53971 11.4216L8.17972 14.0216L6.74971 18.6316C6.45971 19.5616 7.53972 20.3116 8.30972 19.7216L11.9997 16.9216L15.6897 19.7316C16.4597 20.3216 17.5397 19.5716 17.2497 18.6416L15.8197 14.0316L19.4597 11.4316C20.2497 10.8616 19.8497 9.62155 18.8797 9.62155H14.4297V9.61155Z" fill="currentColor"></path>
+                          </svg></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonal-slide w-slide">
+              <div testimonal="1" class="testimonial-card">
+                <div class="column-large">
+                  <div class="testimonial-icon-wrapper"><img src="images/21749c2a23bc5909dc131cd45fbbd05d_1.webp" loading="lazy" sizes="100vw" srcset="images/21749c2a23bc5909dc131cd45fbbd05d_121749c2a23bc5909dc131cd45fbbd05d.webp 500w, images/21749c2a23bc5909dc131cd45fbbd05d_1.webp 612w" alt=""></div>
+                  <p class="paragraph-regular-2">“[testimonial goes in here] lorem ipsum is a placeholder text to demonstrate the visual form of a typeface without relying on meaningful content.”</p>
+                </div>
+                <div class="column-regular-2">
+                  <div class="row-regular row-center">
+                    <div class="testimonial-avatar"><img loading="lazy" src="images/Avatar-2_1.webp" alt="Flowbase Breeze Avatar Placeholder"></div>
+                    <div>
+                      <div class="paragraph-small-2 text-weight-semibold">Bruno</div>
+                      <div class="paragraph-x-small">Company name co.</div>
+                    </div>
+                  </div>
+                  <div class="testimonial-link-wrapper">
+                    <div class="testimonal-rating-wrapper">
+                      <div class="testimonial-star">
+                        <div class="icon-regular w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.4297 9.61155L12.9597 4.77155C12.6697 3.82155 11.3297 3.82155 11.0497 4.77155L9.56971 9.61155H5.11971C4.14971 9.61155 3.74971 10.8616 4.53971 11.4216L8.17972 14.0216L6.74971 18.6316C6.45971 19.5616 7.53972 20.3116 8.30972 19.7216L11.9997 16.9216L15.6897 19.7316C16.4597 20.3216 17.5397 19.5716 17.2497 18.6416L15.8197 14.0316L19.4597 11.4316C20.2497 10.8616 19.8497 9.62155 18.8797 9.62155H14.4297V9.61155Z" fill="currentColor"></path>
+                          </svg></div>
+                      </div>
+                      <div class="testimonial-star">
+                        <div class="icon-regular w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.4297 9.61155L12.9597 4.77155C12.6697 3.82155 11.3297 3.82155 11.0497 4.77155L9.56971 9.61155H5.11971C4.14971 9.61155 3.74971 10.8616 4.53971 11.4216L8.17972 14.0216L6.74971 18.6316C6.45971 19.5616 7.53972 20.3116 8.30972 19.7216L11.9997 16.9216L15.6897 19.7316C16.4597 20.3216 17.5397 19.5716 17.2497 18.6416L15.8197 14.0316L19.4597 11.4316C20.2497 10.8616 19.8497 9.62155 18.8797 9.62155H14.4297V9.61155Z" fill="currentColor"></path>
+                          </svg></div>
+                      </div>
+                      <div class="testimonial-star">
+                        <div class="icon-regular w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.4297 9.61155L12.9597 4.77155C12.6697 3.82155 11.3297 3.82155 11.0497 4.77155L9.56971 9.61155H5.11971C4.14971 9.61155 3.74971 10.8616 4.53971 11.4216L8.17972 14.0216L6.74971 18.6316C6.45971 19.5616 7.53972 20.3116 8.30972 19.7216L11.9997 16.9216L15.6897 19.7316C16.4597 20.3216 17.5397 19.5716 17.2497 18.6416L15.8197 14.0316L19.4597 11.4316C20.2497 10.8616 19.8497 9.62155 18.8797 9.62155H14.4297V9.61155Z" fill="currentColor"></path>
+                          </svg></div>
+                      </div>
+                      <div class="testimonial-star">
+                        <div class="icon-regular w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.4297 9.61155L12.9597 4.77155C12.6697 3.82155 11.3297 3.82155 11.0497 4.77155L9.56971 9.61155H5.11971C4.14971 9.61155 3.74971 10.8616 4.53971 11.4216L8.17972 14.0216L6.74971 18.6316C6.45971 19.5616 7.53972 20.3116 8.30972 19.7216L11.9997 16.9216L15.6897 19.7316C16.4597 20.3216 17.5397 19.5716 17.2497 18.6416L15.8197 14.0316L19.4597 11.4316C20.2497 10.8616 19.8497 9.62155 18.8797 9.62155H14.4297V9.61155Z" fill="currentColor"></path>
+                          </svg></div>
+                      </div>
+                      <div class="testimonial-star">
+                        <div class="icon-regular w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.4297 9.61155L12.9597 4.77155C12.6697 3.82155 11.3297 3.82155 11.0497 4.77155L9.56971 9.61155H5.11971C4.14971 9.61155 3.74971 10.8616 4.53971 11.4216L8.17972 14.0216L6.74971 18.6316C6.45971 19.5616 7.53972 20.3116 8.30972 19.7216L11.9997 16.9216L15.6897 19.7316C16.4597 20.3216 17.5397 19.5716 17.2497 18.6416L15.8197 14.0316L19.4597 11.4316C20.2497 10.8616 19.8497 9.62155 18.8797 9.62155H14.4297V9.61155Z" fill="currentColor"></path>
+                          </svg></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonal-slide w-slide">
+              <div testimonal="1" class="testimonial-card">
+                <div class="column-large">
+                  <div class="testimonial-icon-wrapper"><img src="images/fd11cb2d7cb0d58ba75538251428af84_1.webp" loading="lazy" sizes="100vw" srcset="images/fd11cb2d7cb0d58ba75538251428af84_1fd11cb2d7cb0d58ba75538251428af84.webp 500w, images/fd11cb2d7cb0d58ba75538251428af84_1fd11cb2d7cb0d58ba75538251428af84.webp 800w, images/fd11cb2d7cb0d58ba75538251428af84_1fd11cb2d7cb0d58ba75538251428af84.webp 1080w, images/fd11cb2d7cb0d58ba75538251428af84_1.webp 1600w" alt=""></div>
+                  <p class="paragraph-regular-2">“Payroll and compliance were a nightmare until we partnered with BGHRS. Now, everything runs smoothly! We no longer worry about legal complexities.&quot;</p>
+                </div>
+                <div class="column-regular-2">
+                  <div class="row-regular row-center">
+                    <div class="testimonial-avatar"><img loading="lazy" src="images/4d5a6d7080bf6f415ba8bd0407de09ea.webp" alt=""></div>
+                    <div>
+                      <div class="paragraph-small-2 text-weight-semibold">Marley Rosser</div>
+                      <div class="paragraph-x-small">CFO, SALFORD &amp; Co.</div>
+                    </div>
+                  </div>
+                  <div class="testimonial-link-wrapper">
+                    <div class="testimonal-rating-wrapper">
+                      <div class="testimonial-star">
+                        <div class="icon-regular w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.4297 9.61155L12.9597 4.77155C12.6697 3.82155 11.3297 3.82155 11.0497 4.77155L9.56971 9.61155H5.11971C4.14971 9.61155 3.74971 10.8616 4.53971 11.4216L8.17972 14.0216L6.74971 18.6316C6.45971 19.5616 7.53972 20.3116 8.30972 19.7216L11.9997 16.9216L15.6897 19.7316C16.4597 20.3216 17.5397 19.5716 17.2497 18.6416L15.8197 14.0316L19.4597 11.4316C20.2497 10.8616 19.8497 9.62155 18.8797 9.62155H14.4297V9.61155Z" fill="currentColor"></path>
+                          </svg></div>
+                      </div>
+                      <div class="testimonial-star">
+                        <div class="icon-regular w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.4297 9.61155L12.9597 4.77155C12.6697 3.82155 11.3297 3.82155 11.0497 4.77155L9.56971 9.61155H5.11971C4.14971 9.61155 3.74971 10.8616 4.53971 11.4216L8.17972 14.0216L6.74971 18.6316C6.45971 19.5616 7.53972 20.3116 8.30972 19.7216L11.9997 16.9216L15.6897 19.7316C16.4597 20.3216 17.5397 19.5716 17.2497 18.6416L15.8197 14.0316L19.4597 11.4316C20.2497 10.8616 19.8497 9.62155 18.8797 9.62155H14.4297V9.61155Z" fill="currentColor"></path>
+                          </svg></div>
+                      </div>
+                      <div class="testimonial-star">
+                        <div class="icon-regular w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.4297 9.61155L12.9597 4.77155C12.6697 3.82155 11.3297 3.82155 11.0497 4.77155L9.56971 9.61155H5.11971C4.14971 9.61155 3.74971 10.8616 4.53971 11.4216L8.17972 14.0216L6.74971 18.6316C6.45971 19.5616 7.53972 20.3116 8.30972 19.7216L11.9997 16.9216L15.6897 19.7316C16.4597 20.3216 17.5397 19.5716 17.2497 18.6416L15.8197 14.0316L19.4597 11.4316C20.2497 10.8616 19.8497 9.62155 18.8797 9.62155H14.4297V9.61155Z" fill="currentColor"></path>
+                          </svg></div>
+                      </div>
+                      <div class="testimonial-star">
+                        <div class="icon-regular w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.4297 9.61155L12.9597 4.77155C12.6697 3.82155 11.3297 3.82155 11.0497 4.77155L9.56971 9.61155H5.11971C4.14971 9.61155 3.74971 10.8616 4.53971 11.4216L8.17972 14.0216L6.74971 18.6316C6.45971 19.5616 7.53972 20.3116 8.30972 19.7216L11.9997 16.9216L15.6897 19.7316C16.4597 20.3216 17.5397 19.5716 17.2497 18.6416L15.8197 14.0316L19.4597 11.4316C20.2497 10.8616 19.8497 9.62155 18.8797 9.62155H14.4297V9.61155Z" fill="currentColor"></path>
+                          </svg></div>
+                      </div>
+                      <div class="testimonial-star">
+                        <div class="icon-regular w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.4297 9.61155L12.9597 4.77155C12.6697 3.82155 11.3297 3.82155 11.0497 4.77155L9.56971 9.61155H5.11971C4.14971 9.61155 3.74971 10.8616 4.53971 11.4216L8.17972 14.0216L6.74971 18.6316C6.45971 19.5616 7.53972 20.3116 8.30972 19.7216L11.9997 16.9216L15.6897 19.7316C16.4597 20.3216 17.5397 19.5716 17.2497 18.6416L15.8197 14.0316L19.4597 11.4316C20.2497 10.8616 19.8497 9.62155 18.8797 9.62155H14.4297V9.61155Z" fill="currentColor"></path>
+                          </svg></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hide w-slider-arrow-left">
+            <div class="icon-x-small w-embed"><svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.5273 7.33665H5.08066L8.334 4.08332C8.594 3.82332 8.594 3.39665 8.334 3.13665C8.074 2.87665 7.654 2.87665 7.394 3.13665L3.00066 7.52998C2.74066 7.78998 2.74066 8.20998 3.00066 8.46998L7.394 12.8633C7.654 13.1233 8.074 13.1233 8.334 12.8633C8.594 12.6033 8.594 12.1833 8.334 11.9233L5.08066 8.66998H12.5273C12.894 8.66998 13.194 8.36998 13.194 8.00332C13.194 7.63665 12.894 7.33665 12.5273 7.33665Z" fill="currentColor"></path>
+              </svg></div>
+          </div>
+          <div class="hide w-slider-arrow-right">
+            <div class="icon-x-small w-embed"><svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.47233 8.66669H10.919L7.66566 11.92C7.40566 12.18 7.40566 12.6067 7.66566 12.8667C7.92566 13.1267 8.34566 13.1267 8.60566 12.8667L12.999 8.47335C13.259 8.21335 13.259 7.79335 12.999 7.53335L8.61233 3.13335C8.35233 2.87335 7.93233 2.87335 7.67233 3.13335C7.41233 3.39335 7.41233 3.81335 7.67233 4.07335L10.919 7.33335H3.47233C3.10566 7.33335 2.80566 7.63335 2.80566 8.00002C2.80566 8.36669 3.10566 8.66669 3.47233 8.66669Z" fill="currentColor"></path>
+              </svg></div>
+          </div>
+          <div class="hide w-slider-nav w-num"></div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-slider-overlay"></div>
+  </section>
+  <div class="faq-section">
+    <div class="container-large">
+      <div class="faq-title-wrap-centre">
+        <h2 data-w-id="89da5db3-d0c5-ecf0-7217-47342c515043" style="opacity:0" class="faq-heading">Frequently Asked Questions</h2>
+      </div>
+      <div class="w-layout-grid faq-grid">
+        <div id="w-node-_89da5db3-d0c5-ecf0-7217-47342c515048-46b6cfd5" data-w-id="89da5db3-d0c5-ecf0-7217-47342c515048" style="opacity:0" class="faq-block">
+          <div data-w-id="89da5db3-d0c5-ecf0-7217-47342c515049" class="faq-question-wrapper">
+            <h2 class="faq-title">What services does BGHRS provide?</h2>
+            <div class="accordian-icon-wrapper">
+              <div class="horizontal-line"></div>
+              <div class="vertical-line"></div>
+            </div>
+          </div>
+          <p style="height:0PX" class="faq-paragraph">We offer recruitment, onboarding, payroll management, compliance solutions, and employee benefits to help businesses manage their workforce efficiently.</p>
+        </div>
+        <div data-w-id="89da5db3-d0c5-ecf0-7217-47342c515051" style="opacity:0" class="faq-block">
+          <div data-w-id="89da5db3-d0c5-ecf0-7217-47342c515052" class="faq-question-wrapper">
+            <h2 class="faq-title">Do you provide HR solutions for global companies?</h2>
+            <div class="accordian-icon-wrapper">
+              <div class="horizontal-line"></div>
+              <div class="vertical-line"></div>
+            </div>
+          </div>
+          <p style="height:0PX" class="faq-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+        </div>
+        <div data-w-id="89da5db3-d0c5-ecf0-7217-47342c51505a" style="opacity:0" class="faq-block">
+          <div data-w-id="89da5db3-d0c5-ecf0-7217-47342c51505b" class="faq-question-wrapper">
+            <h2 class="faq-title">How do I processing I need?</h2>
+            <div class="accordian-icon-wrapper">
+              <div class="horizontal-line"></div>
+              <div class="vertical-line"></div>
+            </div>
+          </div>
+          <p style="height:0PX" class="faq-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+        </div>
+        <div data-w-id="89da5db3-d0c5-ecf0-7217-47342c515063" style="opacity:0" class="faq-block">
+          <div data-w-id="89da5db3-d0c5-ecf0-7217-47342c515064" class="faq-question-wrapper">
+            <h2 class="faq-title">What happens if I go over my limit?</h2>
+            <div class="accordian-icon-wrapper">
+              <div class="horizontal-line"></div>
+              <div class="vertical-line"></div>
+            </div>
+          </div>
+          <p style="height:0PX" class="faq-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+        </div>
+        <div data-w-id="89da5db3-d0c5-ecf0-7217-47342c51506c" style="opacity:0" class="faq-block">
+          <div data-w-id="89da5db3-d0c5-ecf0-7217-47342c51506d" class="faq-question-wrapper">
+            <h2 class="faq-title">How do I calculate how much processing I need?</h2>
+            <div class="accordian-icon-wrapper">
+              <div class="horizontal-line"></div>
+              <div class="vertical-line"></div>
+            </div>
+          </div>
+          <p style="height:0PX" class="faq-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="section-cta">
+    <div class="w-layout-blockcontainer container-large cc w-container">
+      <div class="cta-block">
+        <div id="w-node-_230abdd0-ccf9-d8c6-fc61-5145b3d6a852-46b6cfd5" class="cta-content">
+          <h2 data-w-id="46bb6392-058f-c973-3ba2-658a27215359" style="opacity:0" class="faq-heading cc">Ready to Simplify Your HR Process?</h2>
+          <p data-w-id="fb675145-f460-58b0-9f9b-3e05b6fce6ee" style="opacity:0" class="process-subtitle">Let us handle your recruitment, payroll, and compliance—so you can focus on growing your business.</p>
+          <div class="card-grid-wrap">
+            <div data-w-id="2ef278b6-3f0d-551c-cdf9-f65da9d1d9fc" style="opacity:0" class="card">
+              <div class="iocn-wrap"><img src="images/Vector-48.webp" loading="lazy" alt=""></div>
+              <h3 class="card-title">Email Address</h3>
+              <a href="#" class="card-link">support@bghrs.com</a>
+            </div>
+            <div data-w-id="77ea8878-f0e6-36c8-e589-51cfb905c588" style="opacity:0" class="card">
+              <div class="iocn-wrap"><img src="images/Vector-49.webp" loading="lazy" alt=""></div>
+              <h3 class="card-title">send message on whatsapp</h3>
+              <a href="#" class="card-link">+XX XXX XXX XXXX</a>
+            </div>
+            <div id="w-node-a5e24d5d-3cd9-ba4a-d796-e27d7bf0c64b-46b6cfd5" data-w-id="a5e24d5d-3cd9-ba4a-d796-e27d7bf0c64b" style="opacity:0" class="card cc">
+              <div class="iocn-wrap"><img src="images/Vector-50.webp" loading="lazy" alt=""></div>
+              <h3 class="card-title">office location</h3>
+              <a href="#" class="card-link">BGHRS, 123 Business Avenue, City.</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="footer-section">
+    <div class="container-large cc-footer">
+      <div class="footer-row">
+        <div class="footer-left">
+          <div class="footer-company">
+            <a data-w-id="eb15e880-b46c-07c5-e2a8-b33ed426af68" style="opacity:0" href="index.html" aria-current="page" class="footer-logo-link w-inline-block w--current"><img src="images/Frame-876.webp" loading="lazy" alt=""></a>
+            <div class="footer-vertical-divider"></div>
+          </div>
+          <p data-w-id="eb15e880-b46c-07c5-e2a8-b33ed426af74" style="opacity:0" class="footer-para">From recruitment to payroll, manage all your HR needs in one smart platform. Let BGHRS handle the details, so you can focus on growth.</p>
+        </div>
+        <div class="footer-right-wrap">
+          <div class="footer-list">
+            <div class="footer-menu-title">Company</div>
+            <a data-w-id="f6026d70-fa1c-70ec-a74b-b63e30ea8a6d" style="opacity:0" href="#" class="footer-link cc-link">About</a>
+            <a data-w-id="d8d6fe05-b597-aa76-bd7c-f827827a9ffd" style="opacity:0" href="#" class="footer-link cc-link">Services</a>
+            <a data-w-id="53fd5e61-b999-8be7-fff5-e2b1b33d7016" style="opacity:0" href="#" class="footer-link cc-link">Testimonials</a>
+            <a data-w-id="7b12fc9d-812a-d376-ce1c-a3a219da0dc0" style="opacity:0" href="#" class="footer-link cc-link">Contact Us</a>
+          </div>
+          <div id="w-node-_41ebe98f-cbd8-9787-b344-cd049e2f141f-46b6cfd5" class="footer-list">
+            <div class="footer-menu-title">Social links</div>
+            <div data-w-id="2dc52de1-a14d-6631-1cc3-cf7b95f4dd0d" style="opacity:0" class="footer-sm-wrap"><img src="images/Vector-51.webp" loading="lazy" alt="" class="sm-img">
+              <a href="#" class="footer-link">Instagram</a>
+            </div>
+            <div data-w-id="04a13e55-23f2-24d8-df51-44c5547793e1" style="opacity:0" class="footer-sm-wrap"><img src="images/Vector-52.webp" loading="lazy" alt="" class="sm-img">
+              <a href="#" class="footer-link">Twitter</a>
+            </div>
+            <div data-w-id="dd6fa64c-ffa8-422f-caa1-989bd3588c2e" style="opacity:0" class="footer-sm-wrap"><img src="images/Vector-53.webp" loading="lazy" alt="" class="sm-img">
+              <a href="#" class="footer-link">LinkedIn</a>
+            </div>
+            <div data-w-id="c03a67c0-2553-de27-9855-8298f6ced632" style="opacity:0" class="footer-sm-wrap"><img src="images/Vector-54.webp" loading="lazy" alt="" class="sm-img">
+              <a href="#" class="footer-link">Facebook</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <div class="footer-legal-links">
+          <a href="#" class="footer-legal-link">Terms of Service</a>
+          <div class="footer-vertical-divider"></div>
+          <a href="#" class="footer-legal-link">Cookies Settings</a>
+          <div class="footer-vertical-divider cc"></div>
+          <a href="#" class="footer-legal-link">Privacy Policy</a>
+        </div>
+        <div class="paragraph-small-3 text-color-tertiary">©2024 Donezo UI - All Rights Reserved.</div>
+      </div>
+    </div>
+  </section>
+  <div class="code-hide w-embed">
+    <style>
+.section-hero {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 50%), 
+              linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), /* Dark overlay */
+              url('https://cdn.prod.website-files.com/67b32e22097b74fb46b6cfc8/67b41216c91533a5db9257eb_hero-img_optimized_4000.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-button {
+	position: relative;
+  overflow: hidden; 
+  transition: all 0.3s ease-out;
+	box-shadow: 
+        0px 4px 8px rgba(0, 0, 0, 0.10),
+        0px 15px 15px rgba(0, 0, 0, 0.09),
+        0px 33px 20px rgba(0, 0, 0, 0.05),
+        0px 59px 24px rgba(0, 0, 0, 0.01),
+        0px 93px 26px rgba(0, 0, 0, 0.00);
+}
+.hero-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 180, 180, 0.2); /* Brighter overlay */
+  transition: left 0.2s ease-in-out;
+  z-index: 0;
+}
+.hero-button.cc-bg-color::after {
+  background-color: rgba(255, 85, 50, 0.45) !important; /* Slightly more contrast & brightness */
+}
+.hero-button:hover::after {
+  left: 0;
+}
+@media (max-width: 480px) {
+  .section-hero {
+    background-position: 65% 1000%;
+    background-size: cover; /* Ensure it fills the screen */
+  }
+}
+</style>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67b32e22097b74fb46b6cfc8" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollSmoother.min.js"></script>
+  <script>
+  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+  ScrollSmoother.create({
+    smooth: 1.2, // Adjust smoothness level
+  });
+</script>
+</body>
+</html>
